@@ -3,7 +3,7 @@ package com.appslab;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println(rps("rock", "rock"));
+        System.out.println(rps("rock", "paper"));
         System.out.println(rps("paper", "rock"));
         System.out.println(rps("paper", "scissors"));
         System.out.println(rps("scissors", "scissors"));

@@ -9,6 +9,7 @@ public class Main {
     private static double totalDistance(double height, double lenght, double tower)
     {
         double steps = tower/height;
-        return steps * (lenght + height);
+        double numberSteps = steps * (lenght + height);
+        return (int)numberSteps;
     }
 }
